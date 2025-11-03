@@ -19,4 +19,4 @@ jobs:
           name: "SP SoC"
 
       - name: Display greeting output
-        run: echo "Output: ${{ steps.greet.outputs.greeting }}"
+        run: "echo Output: ${{ steps.greet.outputs.greeting }}"
